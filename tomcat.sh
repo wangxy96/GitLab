@@ -12,7 +12,6 @@ echo "export JAVA_HOME=/data/jdk" >> ~/.bashrc
 echo "export PATH=\$JAVA_HOME/bin:\$PATH" >> ~/.bashrc
 source ~/.bashrc
 
-
 #tomcat解压
 cd "$home"
 tar -zxvf apache*.tar.gz
